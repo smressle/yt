@@ -44,7 +44,8 @@ geom_map = {"cartesian": "cartesian",
             "tilted": "cartesian",
             "sinusoidal": "cartesian",
             "schwarzschild": "spherical",
-            "kerr-schild": "spherical"}
+            "kerr-schild": "spherical",
+            "gr_user": "cartesian"}
 
 _cis = np.fromiter(chain.from_iterable(product([0,1], [0,1], [0,1])),
                    dtype=np.int64, count = 8*3)
